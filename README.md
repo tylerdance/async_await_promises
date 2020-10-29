@@ -1,3 +1,9 @@
+# `async/await` and promises
+### Learning goals
+1. Use `.then` to control the timing of asynchronous operations
+1. Use `async/await` to control the timing of asynchronous operations
+1. Build our own promises from scratch
+
 ### Timing exercises
 We have been using `.then` to control the timing of our operations with `fetch`.
 
