@@ -16,7 +16,7 @@ This is somewhat of a boilerplate for promises. The function that we are passing
 
 - Codealong: Use this template to make a promise that resolves immediately, then make another promise that rejects immediately. `console.log` the promises and note their promise state.
 
-Promises are always in one of three states: `pending` (has not resolved yet), `fulfilled` (has resolved successfully), or `rejected` (has resolved in an error state).
+Promises are always in one of three states: `pending` (has not resolved yet), `fulfilled` (has completed successfully), or `rejected` (has completed in an error state).
 
 ### Delayed Promises
 Our immediately-firing promises are not a great use of promises to be honest, because they are not allowing us to work with a time delay, which is the primary use case of promises. Let's modify them so that they simulate a delayed result:
