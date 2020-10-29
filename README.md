@@ -1,8 +1,7 @@
-- timing exercise 1 (independent then together)
-- redo timing exercise 1 with async/await
-- timing exercise 2
-- redo timing exercise 2 with async/await
+### Timing exercises
+We have been using `.then` to control the timing of our operations with `fetch`.
 
+- Exercise: do the timing exercises found in `app.js`. After each exercise, we'll learn how to accomplish the same thing using `async/await`.
 
 ### Promises
 A promise is an object that serves as a placeholder for a long-running operation, such as fetching data across the web. When the long-running operation completes, the promise receives the data, and your code can work with it.
